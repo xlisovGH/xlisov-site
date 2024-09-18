@@ -15,9 +15,9 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-
     letter-spacing: 2px;
     line-height: 100px;
+    padding: 20px;
 }
 
 body p {
@@ -45,4 +45,54 @@ footer {
     text-align: center;
     font-size: 0.9rem;
     color: rgb(136, 136, 136);
+}
+
+/* Tablet and smaller screens (up to 768px) */
+@media (max-width: 768px) {
+    body {
+        line-height: 1.6;
+        letter-spacing: 1px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
+/* Mobile devices (up to 480px) */
+@media (max-width: 480px) {
+    body {
+        line-height: 1.4;
+        letter-spacing: 0.5px;
+        padding: 5px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
 }
