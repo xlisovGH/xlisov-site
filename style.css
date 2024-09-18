@@ -47,12 +47,12 @@ footer {
     color: rgb(136, 136, 136);
 }
 
-/* Tablet and smaller screens (up to 768px) */
 @media (max-width: 768px) {
     body {
         line-height: 1.6;
         letter-spacing: 1px;
         padding: 10px;
+        text-align: center;
     }
 
     h1 {
@@ -72,12 +72,12 @@ footer {
     }
 }
 
-/* Mobile devices (up to 480px) */
 @media (max-width: 480px) {
     body {
         line-height: 1.4;
         letter-spacing: 0.5px;
         padding: 5px;
+        text-align: center;
     }
 
     h1 {
