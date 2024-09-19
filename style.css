@@ -49,9 +49,9 @@ footer {
 
 @media (max-width: 768px) {
     body {
-        line-height: 1.6;
-        letter-spacing: 1px;
-        padding: 10px;
+        letter-spacing: 2px;
+        line-height: 50px;
+        padding: 20px;
         text-align: center;
     }
 
@@ -74,9 +74,9 @@ footer {
 
 @media (max-width: 480px) {
     body {
-        line-height: 1.4;
-        letter-spacing: 0.5px;
-        padding: 5px;
+        letter-spacing: 2px;
+        line-height: 50px;
+        padding: 20px;
         text-align: center;
     }
 
