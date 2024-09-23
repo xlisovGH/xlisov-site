@@ -1,98 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wdth,wght@0,50..125,100..900;1,50..125,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:ital,wdth,wght@0,50..125,100..900;1,50..125,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body,
+html {
+    font-family: "Saira", sans-serif;
+
+    background-color: rgb(16, 16, 16);
+    color: white;
+
+    text-align: center;
+    letter-spacing: 2.5px;
 }
 
-body {
-    font-family: "Saira", sans-serif;
-    background-color: rgb(28, 28, 28);
-    color: rgb(237, 237, 237);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    letter-spacing: 2px;
-    line-height: 100px;
+h2 {
+    font-family: "Space Mono";
+    font-size: 36px;
+    text-shadow: 1px 2px rgb(0, 0, 0);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(
+        to right,
+        rgba(66, 66, 69, 0),
+        rgba(66, 66, 69, 1),
+        rgba(66, 66, 69, 0)
+    );
+    margin: 20px 0;
+}
+
+.container-repo {
+    background-color: rgb(15, 15, 14);
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 69);
+
+    width: 40%;
+    margin: 0 auto;
     padding: 20px;
 }
 
-body p {
-    color: rgb(186, 186, 186);
-}
-
-body h2 {
-    font-weight: 600;
-    color: rgb(176, 176, 176);
-}
-
-body a {
-    color: cornflowerblue;
+.container-repo h3 a {
     text-decoration: none;
-    transition: 0.5s;
+    color: lightcoral;
 }
 
-body a:hover {
-    font-weight: 500;
-    text-shadow: 0 0 10px cornflowerblue;
+.container-repo h3 a:hover {
+    text-decoration: underline;
+    color: lightcoral;
 }
 
-footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 0.9rem;
-    color: rgb(136, 136, 136);
+.container-contact {
+    background-color: rgb(15, 15, 14);
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 69);
+
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-@media (max-width: 768px) {
-    body {
-        letter-spacing: 2px;
-        line-height: 50px;
-        padding: 20px;
-        text-align: center;
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    footer {
-        font-size: 0.8rem;
-    }
+.container-contact p a {
+    text-decoration: none;
+    color: lightcoral;
 }
 
-@media (max-width: 480px) {
-    body {
-        letter-spacing: 2px;
-        line-height: 50px;
-        padding: 20px;
-        text-align: center;
-    }
+.container-contact p a:hover {
+    text-decoration: underline;
+    color: lightcoral;
+}
 
-    h1 {
-        font-size: 2rem;
-    }
+.container-footer {
+    background-color: rgb(15, 15, 14);
+    border-radius: 10px;
+    border: 1px solid rgb(66, 66, 69);
 
-    h2 {
-        font-size: 1.25rem;
-    }
+    width: 40%;
+    margin: 7.5% auto;
+    padding: 20px;
+}
 
-    p {
-        font-size: 0.9rem;
-    }
+.container-footer a {
+    text-decoration: none;
+    color: lightcoral;
+}
 
-    footer {
-        font-size: 0.7rem;
-    }
+.container-footer a:hover {
+    text-decoration: underline;
+    color: lightcoral;
 }
